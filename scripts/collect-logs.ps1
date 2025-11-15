@@ -1,0 +1,1 @@
+Get-WinEvent -LogName Security | Export-Csv "C:\IR\security_logs.csv" -NoTypeInformation

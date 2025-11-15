@@ -1,0 +1,8 @@
+
+<Sysmon>
+  <EventFiltering>
+    <ProcessCreate onmatch="include">
+      <CommandLine condition="contains">powershell</CommandLine>
+    </ProcessCreate>
+  </EventFiltering>
+</Sysmon>

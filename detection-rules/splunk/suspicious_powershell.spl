@@ -1,0 +1,3 @@
+
+index=windows EventCode=4688 CommandLine="*EncodedCommand*"
+| stats count by Computer, User, CommandLine
